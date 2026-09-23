@@ -1,0 +1,16 @@
+# All rates are fractions: 0.0005 means 0.05%.
+max_drop_rate: 0.0005
+overall_p90_limit: 0.00075
+relative_p90_factor: 1.1
+limit_tolerance_deg: 4.0
+limit_confirmations: 3
+position_tolerance_deg: 0.1
+imu_move_deg: 10.0
+
+# Overall robot-configuration steps. Set false to skip that step.
+enable_connect: true
+enable_scan: true
+enable_stress: true
+enable_calibration: true
+enable_imu: true
+enable_motion: true

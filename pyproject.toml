@@ -1,0 +1,11 @@
+[project]
+name = "robot-setup"
+version = "0.1.0"
+description = "NiceGUI robot commissioning wizard"
+requires-python = ">=3.12"
+dependencies = [
+    "nicegui>=2.0,<4.0",
+]
+
+[tool.uv]
+package = false
