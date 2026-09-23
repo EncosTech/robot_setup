@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+tests/__pycache__/
+*.pyc
+*.appimage
+.play.runtime.csv
+.play.verify.csv
+.robot-packages-upload.zip
+packages.zip
+robot_config.yaml
+config/*
+!config/.gitkeep
+dist/
+.offline-stage.*
+.robot-setup-stage.*
+robot_progress.json
